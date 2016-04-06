@@ -1,0 +1,13 @@
+.round {
+    border-radius: 400px;
+    float: left;
+    padding-right: 30px;
+}
+.about {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+.text-about {
+    padding-top: 20px;
+}

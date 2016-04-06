@@ -1,0 +1,72 @@
+.body {
+    margin: 0 auto;
+    height: 100%;
+}
+.wrapper {
+     background: #FFE4C4;
+}
+.title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-left: 30px;
+    color:    #A52A2A;
+}
+.ocupation {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-weight: 250;
+    margin-top: 10px;
+    background-image: url(backgr-local-grey.jpg);
+}
+.center {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    background-image: url(backgr-local-grey.jpg);
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-position: inside;
+    padding: 10px;
+}
+.topmenu li {
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 250; 
+    font-size: 25px;
+    color: #A52A2A;
+}
+    .carusel {
+       text-align: center;
+}
+.services {
+   margin: auto;
+   font-family: 'Patrick Hand', cursive;
+    font-weight: 250; 
+    font-size: 25px;
+}
+footer {
+    background-image: url(backgr-local-grey.jpg);
+    height: 60px;
+    margin-bottom: 0;
+}
+.phone-num {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    
+}
+.social-link a {
+     text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-weight: 800; 
+    font-size: 45px;
+    color: #FA8072;
+    margin-right: 10px;
+}
