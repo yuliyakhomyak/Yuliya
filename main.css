@@ -17,6 +17,7 @@
     font-size: 30px;
     font-weight: 250;
     margin-top: 10px;
+    padding-left: 20px;
     background-image: url(backgr-local-grey.jpg);
 }
 .center {
@@ -43,14 +44,22 @@ nav li {
     font-size: 25px;
     color: #A52A2A;
 }
-    .carusel {
+.carousel {
        text-align: center;
 }
+
+.item {
+    background-image: url(backgr-local-grey.jpg);   
+    
+}
+
+
 .services {
    margin: auto;
    font-family: 'Patrick Hand', cursive;
     font-weight: 250; 
-    font-size: 25px;
+    font-size: 20px;
+    padding: 30px;
 }
 footer {
     background-image: url(backgr-local-grey.jpg);
@@ -60,7 +69,6 @@ footer {
 .phone-num {
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
-    
 }
 .social-link a {
      text-decoration: none;
@@ -68,5 +76,5 @@ footer {
     font-weight: 800; 
     font-size: 45px;
     color: #FA8072;
-    margin-right: 10px;
+    padding-left: 50px;
 }

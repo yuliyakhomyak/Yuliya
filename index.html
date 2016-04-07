@@ -3,6 +3,14 @@
     <head>
         <meta charset="utf-8"> 
         <title>Yulia photographer</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
@@ -32,11 +40,58 @@
                 </div>
             </nav>
             <section>
-                
-                <p class="carusel">
-                    <img src="test.jpg"/>
-                    <br>
-                    <br>
+                <p class="carousel">
+                    
+                    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                            <li data-target="#myCarousel" data-slide-to="7"></li>
+                            <li data-target="#myCarousel" data-slide-to="8"></li>
+                        </ol>
+                         <div class="carousel-inner" role="listbox">
+                             <div class="item active">
+                                 <img src="carousel/baby-hat.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/baby-sleep.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/boy-amused.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/boy-hand.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/boy-tree.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/bride-groom.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/child-baloon.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/child-sofa.jpg"/>
+                             </div>
+                             <div class="item">
+                                 <img src="carousel/girl-bear.jpg"/>
+                             </div>
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                             
+                         </div>
+                    </div>
+                    
                         <div class="services">
                                 <p>Фотосесії:</p>
                             <ul>
@@ -52,7 +107,7 @@
             </section>
             <footer>
                 <div class="phone-num">
-                    <p>(097) 585 87 50</p>
+                    <p>тел: +38(097) 585 87 50</p>
                 </div>
                 <div class="social-link">
                     <a href="https://www.facebook.com/yuliya.khomyak.1?fref=pb&hc_location=friends_tab&pnref=friends.all" target="_blank">f   </a>
@@ -60,5 +115,15 @@
                 </div>
             </footer>
         </div>
+        
+        <script src="//code.jquery.com/jquery-2.2.2.min.js"   
+            integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="  
+            crossorigin="anonymous">
+        </script>        
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+            crossorigin="anonymous">
+        </script>
     </body>
 </html>
