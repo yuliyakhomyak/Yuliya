@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    height: 100%;
+    
 }
 .wrapper {
      background: #FFE4C4;
@@ -30,7 +30,7 @@ body {
  color: #A52A2A;
 }
 
-.title {
+.title h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
     margin: 0 auto;
@@ -48,38 +48,5 @@ body {
     background-image: url(backgr-local-grey.jpg);
 }
  
-
-.carousel-inner {
-       margin: 0 auto;
-}
-
-
-.services {
-    margin: 20px 0;
-}
-
-.services p {
-   text-align: center;
-   font-family: 'Patrick Hand', cursive;
-    font-weight: 250; 
-    font-size: 20px;
-    padding: 15px;
-
-}
-footer {
-    background-image: url(backgr-local-grey.jpg);
-    height: 60px;
-    margin-bottom: 0;
-}
-.phone-num {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
-}
-.social-link a {
-     text-decoration: none;
-    font-family: 'Righteous', cursive;
-    font-weight: 800; 
-    font-size: 45px;
-    color: #FA8072;
-    padding-left: 50px;
-}
+ 
+ 
