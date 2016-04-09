@@ -4,6 +4,7 @@
     padding-right: 30px;
 }
 .about {
+    height: 600px; 
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     padding: 10px;

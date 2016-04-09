@@ -8,23 +8,23 @@ body {
 }
 
 .menu{
-   width: 1200px; /* ширина обертки меню */
-   height: 50px; /* высота */
-   margin: 0 auto; /* центрирование обертки! меню */
-   background-image: url(backgr-local-grey.jpg); /* цвет фона */
-   text-align: center; /* центрируем содержимое */
+   width: 1200px; 
+   height: 50px; 
+   margin: 0 auto; 
+   background-image: url(backgr-local-grey.jpg); 
+   text-align: center; 
 }
 .menu span{
-   list-style: none; /* убираем маркеры */
-   display: inline-block; /* вместо float: left; */
+   list-style: none; 
+   display: inline-block;
 }
 .menu span a{
-   text-decoration: none; /* убираем подчеркивание ссылки */
+   text-decoration: none; 
    font-family: 'Indie Flower', cursive;
    font-size: 30px;
-   display: block; /* делаем ссылки блочными */
-   padding: 10px 20px; /* отступы */
-   color: #FFE4C4; /* цвет ссылок */
+   display: block; 
+   padding: 10px 20px; 
+   color: #FFE4C4; 
 }
 .menu span a:hover {
  color: #A52A2A;
@@ -33,7 +33,7 @@ body {
 .title {
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
-    margin: 0 auto;
+    margin: 20px 0;
     text-align: center;
     color:    #A52A2A;
     height: 150px;
@@ -64,22 +64,24 @@ body {
     font-weight: 250; 
     font-size: 20px;
     padding: 15px;
-
+}
+.title-servis {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: #A52A2A;
 }
 footer {
     background-image: url(backgr-local-grey.jpg);
-    height: 60px;
+    height: 100px;
     margin-bottom: 0;
 }
-.phone-num {
+.phone-social-link {
+    text-align: center;
+    padding: 10px 0;
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
+    color: #FFE4C4;
 }
-.social-link a {
-     text-decoration: none;
-    font-family: 'Righteous', cursive;
-    font-weight: 800; 
-    font-size: 45px;
-    color: #FA8072;
-    padding-left: 50px;
+.phone-social-link span {
+  padding-left: 60px;  
 }
