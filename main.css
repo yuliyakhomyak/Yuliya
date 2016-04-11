@@ -38,6 +38,10 @@ body {
     color:    #A52A2A;
     height: 150px;
 }
+.title h1 {
+   font-size: 55px;
+   font-weight: 300;
+}
 .ocupation {
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
